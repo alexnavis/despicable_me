@@ -4,7 +4,10 @@
     <output url="file://$MODULE_DIR$/_build/dev/lib/despicableme/ebin" />
     <output-test url="file://$MODULE_DIR$/_build/test/lib/despicableme/ebin" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/_build" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
